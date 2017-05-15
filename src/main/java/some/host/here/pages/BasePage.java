@@ -3,7 +3,7 @@ package some.host.here.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static some.host.here.keywords.BaseTest.WEB_DRIVER_TIMEOUT_IN_SECONDS;
+import static some.host.here.Constants.WEB_DRIVER_TIMEOUT_IN_SECONDS;
 
 public class BasePage {
     protected WebDriver driver;

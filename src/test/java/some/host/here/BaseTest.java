@@ -1,16 +1,18 @@
-package some.host.here.keywords;
+package some.host.here;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import some.host.here.keywords.WebPageKeywords;
 
 import java.io.File;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import static some.host.here.Constants.WEB_DRIVER_TIMEOUT_IN_SECONDS;
+
 public class BaseTest {
-    public static final int WEB_DRIVER_TIMEOUT_IN_SECONDS = 15;
     public ThreadLocal<WebDriver> driverStore = new ThreadLocal<>();
     public ThreadLocal<WebPageKeywords> webPageKeywordsStore = new ThreadLocal<>();
 

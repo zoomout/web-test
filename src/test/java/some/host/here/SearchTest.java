@@ -1,7 +1,8 @@
-package some.host.here.keywords;
+package some.host.here;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+import some.host.here.keywords.WebPageKeywords;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
