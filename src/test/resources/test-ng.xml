@@ -3,7 +3,7 @@
 <suite name="Test Suite" parallel="methods" thread-count="2">
     <test name="Test1">
         <packages>
-            <package name="com.test.web.*"/>
+            <package name="some.host.here.*"/>
         </packages>
     </test>
 </suite>
